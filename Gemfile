@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Votable Gem -- Acts as Votable
 gem 'acts_as_votable', '~> 0.10.0'
 
+# HTML 5 Boilerplate gem
+gem "rails-boilerplate"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
