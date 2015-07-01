@@ -9,9 +9,8 @@ This is an application that is a simple list generator, that allows logged in us
 - Normal user type account settings stuff.
 
 
-------------------------------------------------------------------
-# Stuff that needs done.
-------------------------------------------------------------------
+### Stuff that needs done.
+
 - [ ] add navigation
 - [ ] add user account registration views
 - [ ] add "voting" to the beverages
