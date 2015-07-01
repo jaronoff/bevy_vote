@@ -28,7 +28,7 @@ class BeveragesController < ApplicationController
 
     respond_to do |format|
       if @beverage.save
-        format.html { redirect_to @beverage, notice: 'Beverage was successfully created.' }
+        format.html { redirect_to @beverage, notice: 'Your beverage was successfully created.' }
         format.json { render :show, status: :created, location: @beverage }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class BeveragesController < ApplicationController
   def update
     respond_to do |format|
       if @beverage.update(beverage_params)
-        format.html { redirect_to @beverage, notice: 'Beverage was successfully updated.' }
+        format.html { redirect_to @beverage, notice: 'Your beverage is updated.' }
         format.json { render :show, status: :ok, location: @beverage }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class BeveragesController < ApplicationController
   def destroy
     @beverage.destroy
     respond_to do |format|
-      format.html { redirect_to beverages_url, notice: 'Beverage was successfully destroyed.' }
+      format.html { redirect_to beverages_url, notice: 'Your beverage has been deleted.' }
       format.json { head :no_content }
     end
   end

@@ -16,9 +16,9 @@
       <tr>
         <td><%= beverage.name %></td>
         <td><%= beverage.kind %></td>
-        <td><%= link_to 'Show', beverage %></td>
+        <td><%= link_to 'View', beverage %></td>
         <td><%= link_to 'Edit', edit_beverage_path(beverage) %></td>
-        <td><%= link_to 'Destroy', beverage, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', beverage, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

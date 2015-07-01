@@ -29,6 +29,9 @@ gem 'acts_as_votable', '~> 0.10.0'
 # Foundation gem for layouts and styles.
 gem 'foundation-rails'
 
+# Authenticating Users with Devise.
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
