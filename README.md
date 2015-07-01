@@ -1,5 +1,5 @@
 ------------------------------------------------------------------
-## Bevy_Vote - A Voting System for Beverages in the Chemistry Office.
+## Bevy_Vote - A Voting System for Beverages
 ------------------------------------------------------------------
 
 This is an application that is a simple list generator, that allows logged in users do the following:
