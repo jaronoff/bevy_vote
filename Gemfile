@@ -26,7 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Votable Gem -- Acts as Votable
 gem 'acts_as_votable', '~> 0.10.0'
 
-# Foundation gem for layouts and styles.
+# adding foundation
 gem 'foundation-rails'
 
 # Authenticating Users with Devise.

@@ -1,6 +1,6 @@
 ## Bevy_Vote - A Voting System for Beverages
 
-This is an application that is a simple list generator, that allows logged in users do the following:
+This is an application that is a simple list generator, that allows logged in users to do the following:
 
 - Add beverages.
 - Vote up / down for individual Beverages.
@@ -9,7 +9,8 @@ This is an application that is a simple list generator, that allows logged in us
 
 ### Stuff that needs done.
 
-- [ ] add navigation
+- [x] add navigation
+- [ ] sign up / sign out views in nav
 - [ ] add user account registration views
 - [ ] add "voting" to the beverages
 - [ ] add profile pictures to account settings
